@@ -1,0 +1,20 @@
+name: msci_bo
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - rdkit
+  - jupyter
+  - tqdm
+  - pip
+  - pip:
+    - torch
+    - botorch
+    - gpytorch
